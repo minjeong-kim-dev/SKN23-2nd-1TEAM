@@ -1,11 +1,13 @@
-# Created by https://www.toptal.com/developers/gitignore/api/venv,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=venv,python
+# Created by https://www.toptal.com/developers/gitignore/api/python,venv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,venv
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*_venv/
+*venv*/
 
 # C extensions
 *.so
@@ -131,7 +133,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-*venv*/
+large_file.dat
 
 # Spyder project settings
 .spyderproject
@@ -186,4 +188,7 @@ pyrightconfig.json
 pyvenv.cfg
 pip-selfcheck.json
 
-# End of https://www.toptal.com/developers/gitignore/api/venv,python
+# End of https://www.toptal.com/developers/gitignore/api/python,venv
+
+data/reviews_joined_all_matched.csv
+data/steam_reviews_last365d.csv
